@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Results | Quiz Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="center-body all-results-page">
+  <main class="panel wide">
+    <h1>All Attempts</h1>
+    <div id="allResults" class="results-list"></div>
+    <button type="button" onclick="goBack()">Back</button>
+  </main>
+  <div id="reviewModal" class="review-modal">
+    <div class="review-box">
+      <div class="review-header">
+        <h2 id="reviewTitle">Review Answers</h2>
+        <button type="button" class="review-close" onclick="closeReview()">Close</button>
+      </div>
+      <div id="reviewContent" class="review-content"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

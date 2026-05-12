@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz | Online Quiz System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="quiz-body quiz-page">
+  <aside class="sidebar">
+    <h2>Questions</h2>
+    <div id="navigator"></div>
+  </aside>
+
+  <header class="topbar">
+    <div class="user-menu" id="userMenu">
+      <button type="button" class="user-menu-btn" onclick="toggleUserMenu(event)" aria-expanded="false">
+        <img class="user-avatar-img" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User">
+        <span id="userName"></span>
+        <img class="select-arrow-img" src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Open">
+      </button>
+      <div class="user-dropdown">
+        <div class="dropdown-user">
+          <img class="user-avatar-img large" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User">
+          <div>
+            <strong id="dropdownUserName"></strong>
+            <small>Quiz participant</small>
+          </div>
+        </div>
+        <button type="button" class="dropdown-logout" onclick="logout(); return false;">Logout</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="quiz-area">
+    <section class="quiz-card no-copy">
+      <p id="timer">Time Left: 05:00</p>
+      <h3 id="qno"></h3>
+      <h1 id="question"></h1>
+      <div id="options"></div>
+      <div class="button-row">
+        <button type="button" class="secondary" onclick="prevQ()">Previous</button>
+        <button type="button" id="nextBtn" onclick="nextQ()">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

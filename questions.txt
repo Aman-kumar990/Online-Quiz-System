@@ -1,0 +1,90 @@
+What is HTML?|Markup|Programming|DB|OS|A|html|low
+HTML stands for?|Hyper Text Markup Language|High Text Machine Language|None|All|A|html|low
+Tag for paragraph?|&lt;p&gt;|&lt;h1&gt;|&lt;div&gt;|&lt;span&gt;|A|html|low
+Tag for link?|&lt;a&gt;|&lt;link&gt;|&lt;href&gt;|&lt;url&gt;|A|html|low
+Image tag?|&lt;img&gt;|&lt;image&gt;|&lt;pic&gt;|&lt;src&gt;|A|html|low
+Break line tag?|&lt;br&gt;|&lt;lb&gt;|&lt;break&gt;|&lt;line&gt;|A|html|low
+Heading tag?|&lt;h1&gt;|&lt;head&gt;|&lt;title&gt;|&lt;p&gt;|A|html|low
+List tag?|&lt;ul&gt;|&lt;list&gt;|&lt;li&gt;|&lt;ol&gt;|A|html|low
+Table tag?|&lt;table&gt;|&lt;tb&gt;|&lt;tr&gt;|&lt;td&gt;|A|html|low
+Form tag?|&lt;form&gt;|&lt;input&gt;|&lt;button&gt;|&lt;label&gt;|A|html|low
+Input type for password?|password|text|email|number|A|html|medium
+Tag for table row?|&lt;tr&gt;|&lt;td&gt;|&lt;th&gt;|&lt;table&gt;|A|html|medium
+Meta tag use?|SEO|Design|Layout|None|A|html|medium
+Audio tag?|&lt;audio&gt;|&lt;sound&gt;|&lt;mp3&gt;|&lt;media&gt;|A|html|medium
+Video tag?|&lt;video&gt;|&lt;movie&gt;|&lt;mp4&gt;|&lt;play&gt;|A|html|medium
+Div tag use?|Container|Image|Text|Link|A|html|medium
+Span tag?|Inline|Block|Image|None|A|html|medium
+Iframe use?|Embed|Link|Image|None|A|html|medium
+Strong tag?|Bold|Italic|Underline|None|A|html|medium
+Em tag?|Italic|Bold|Underline|None|A|html|medium
+DOCTYPE declaration?|&lt;!DOCTYPE html&gt;|&lt;doctype&gt;|&lt;html&gt;|&lt;head&gt;|A|html|high
+Semantic tag?|&lt;article&gt;|&lt;div&gt;|&lt;span&gt;|&lt;b&gt;|A|html|high
+Canvas tag?|&lt;canvas&gt;|&lt;draw&gt;|&lt;svg&gt;|&lt;graphic&gt;|A|html|high
+Local storage in HTML?|localStorage|session|cookie|cache|A|html|high
+Data attribute?|data-*|attr-*|custom-*|meta-*|A|html|high
+SVG tag?|&lt;svg&gt;|&lt;vector&gt;|&lt;shape&gt;|&lt;img&gt;|A|html|high
+Web storage types?|local & session|cookie only|db|none|A|html|high
+Accessibility attribute?|aria-label|alt|title|role|A|html|high
+Script async?|async|delay|fast|speed|A|html|high
+Script defer?|defer|wait|pause|hold|A|html|high
+CSS stands for?|Cascading Style Sheets|Creative Style System|Computer Style Sheet|None|A|css|low
+Property for color?|color|bgcolor|text|font|A|css|low
+Background property?|background|bg|color|style|A|css|low
+Font size property?|font-size|text-size|size|font|A|css|low
+Margin property?|margin|space|gap|padding|A|css|low
+Padding property?|padding|margin|space|gap|A|css|low
+Display property?|display|show|view|layout|A|css|low
+Position property?|position|place|locate|align|A|css|low
+Border property?|border|line|outline|edge|A|css|low
+Width property?|width|size|length|height|A|css|low
+Flexbox property?|display:flex|flexbox|layout|grid|A|css|medium
+Grid property?|display:grid|gridbox|layout|table|A|css|medium
+Hover effect?|:hover|:click|:active|:focus|A|css|medium
+Text align?|text-align|align|position|center|A|css|medium
+Z-index use?|layer|depth|position|none|A|css|medium
+Opacity property?|opacity|visible|alpha|clear|A|css|medium
+Overflow property?|overflow|flow|hidden|scroll|A|css|medium
+Float property?|float|align|position|none|A|css|medium
+Clear property?|clear|remove|reset|none|A|css|medium
+Cursor property?|cursor|pointer|mouse|hover|A|css|medium
+Media query syntax?|@media|@screen|@query|@responsive|A|css|high
+Keyframes used for?|animation|transition|hover|effect|A|css|high
+Transition property?|transition|animate|move|effect|A|css|high
+Transform property?|transform|rotate|scale|move|A|css|high
+Flex direction?|flex-direction|direction|flow|align|A|css|high
+Justify content?|justify-content|align|center|space|A|css|high
+Align items?|align-items|justify|place|center|A|css|high
+Grid template?|grid-template|layout|gridbox|structure|A|css|high
+Clamp function?|clamp()|min()|max()|calc()|A|css|high
+Aspect ratio?|aspect-ratio|ratio|size|scale|A|css|high
+JS stands for?|JavaScript|Java System|JScript|None|A|js|low
+Variable keyword?|var|int|string|let|A|js|low
+Alert function?|alert()|msg()|print()|show()|A|js|low
+Console log?|console.log()|print()|log()|show()|A|js|low
+Array symbol?|[]|{}|()|<>|A|js|low
+Object symbol?|{}|[]|()|<>|A|js|low
+Function keyword?|function|fun|define|method|A|js|low
+If condition?|if|when|check|case|A|js|low
+Loop keyword?|for|loop|iterate|repeat|A|js|low
+Boolean values?|true|yes|1|on|A|js|low
+let vs var?|block scope|global|same|none|A|js|medium
+Const variable?|cannot change|changeable|dynamic|none|A|js|medium
+Arrow function?|()=>|function|->|=>|A|js|medium
+Array method add?|push()|add()|insert()|append()|A|js|medium
+Remove last element?|pop()|remove()|delete()|shift()|A|js|medium
+JSON stands for?|JavaScript Object Notation|Java System|None|All|A|js|medium
+Event listener?|addEventListener|onClick|listen()|event()|A|js|medium
+DOM stands for?|Document Object Model|Data Object Model|None|All|A|js|medium
+typeof operator?|type|typeof|check|is|B|js|medium
+Template literal?|` `|' '| " "|<>|A|js|medium
+Closure?|function with scope|loop|object|none|A|js|high
+Promise states?|pending|done|fail|stop|A|js|high
+Async keyword?|async|await|promise|then|A|js|high
+Await used with?|promise|function|loop|object|A|js|high
+Callback function?|function passed|loop|object|none|A|js|high
+Hoisting?|variable lift|error|compile|none|A|js|high
+Event bubbling?|upward flow|downward|none|stop|A|js|high
+Event capturing?|downward flow|upward|none|stop|A|js|high
+SetTimeout use?|delay|loop|repeat|none|A|js|high
+Map method?|array transform|loop|filter|none|A|js|high

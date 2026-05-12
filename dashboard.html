@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Online Quiz System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="center-body dashboard-page">
+  <p id="dashboardDateTime" class="dashboard-datetime"></p>
+  <main class="panel">
+    <h1 id="welcome">Welcome</h1>
+    <div class="button-stack">
+      <button type="button" onclick="openProfile()">Profile</button>
+      <button type="button" onclick="startQuiz()">Start Quiz</button>
+      <button type="button" onclick="viewResult()">View Last Result</button>
+      <button type="button" onclick="viewAllResults()">View All Results</button>
+      <button type="button" class="danger" onclick="logout()">Logout</button>
+    </div>
+  </main>
+  <div id="profileModal" class="profile-modal">
+    <section class="profile-box">
+      <div class="profile-header">
+        <h2>Profile</h2>
+        <button type="button" class="profile-close" onclick="closeProfile()">Close</button>
+      </div>
+      <div class="profile-name-row">
+        <div>
+          <span class="profile-label">Full Name</span>
+          <strong id="profileNameText">Aman</strong>
+        </div>
+        <button type="button" class="profile-edit-btn" onclick="enableProfileEdit()">Edit</button>
+      </div>
+      <div id="profileEditArea" class="profile-edit-area">
+        <label for="profileName">Edit Full Name</label>
+        <input id="profileName" type="text" placeholder="Enter full name">
+      </div>
+      <div class="profile-stats">
+        <article>
+          <span>Average Accuracy</span>
+          <strong id="profileAccuracy">0%</strong>
+        </article>
+        <article>
+          <span>Total Attempts</span>
+          <strong id="profileAttempts">0</strong>
+        </article>
+      </div>
+      <button id="profileSaveBtn" type="button" onclick="saveProfileName()">Save Profile</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Online Quiz System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-body login-page">
+  <section class="auth-hero">
+    <span class="hero-kicker">Smart Quiz Studio</span>
+    <h1>Online Quiz System</h1>
+    <p>Join a calmer workspace for practice, progress, and quick results.</p>
+  </section>
+  <main class="auth-box">
+    <h1>Quiz Login</h1>
+    <input id="username" type="text" placeholder="Username" autocomplete="username" required tabindex="1">
+    <div class="password-field">
+      <input id="password" type="password" placeholder="Password" autocomplete="current-password" required tabindex="2">
+      <button type="button" class="show-password-btn" onclick="togglePasswordVisibility('password', this)" tabindex="3">Show</button>
+    </div>
+    <button type="button" onclick="login()" tabindex="4">Login</button>
+    <p><a href="signup.html">Create a new account</a></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

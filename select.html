@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Quiz | Online Quiz System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="center-body select-page">
+  <main class="panel">
+    <h1>Select Quiz</h1>
+
+    <select id="subject" class="native-select-hidden" aria-hidden="true" tabindex="-1">
+      <option value="">Select Subject</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="js">JavaScript</option>
+    </select>
+
+    <div class="custom-select" data-target="subject">
+      <button type="button" class="custom-select-btn" onclick="toggleCustomSelect(event, this)">
+        <span class="select-label">Subject</span>
+        <strong>Select Subject</strong>
+        <img class="select-arrow-img" src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Open">
+      </button>
+      <div class="custom-select-menu">
+        <button type="button" onclick="chooseCustomOption(this, 'subject', '', 'Select Subject')">Select Subject</button>
+        <button type="button" onclick="chooseCustomOption(this, 'subject', 'html', 'HTML')">HTML</button>
+        <button type="button" onclick="chooseCustomOption(this, 'subject', 'css', 'CSS')">CSS</button>
+        <button type="button" onclick="chooseCustomOption(this, 'subject', 'js', 'JavaScript')">JavaScript</button>
+      </div>
+    </div>
+
+    <select id="level" class="native-select-hidden" aria-hidden="true" tabindex="-1">
+      <option value="">Select Level</option>
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+
+    <div class="custom-select" data-target="level">
+      <button type="button" class="custom-select-btn" onclick="toggleCustomSelect(event, this)">
+        <span class="select-label">Difficulty</span>
+        <strong>Select Level</strong>
+        <img class="select-arrow-img" src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Open">
+      </button>
+      <div class="custom-select-menu">
+        <button type="button" onclick="chooseCustomOption(this, 'level', '', 'Select Level')">Select Level</button>
+        <button type="button" onclick="chooseCustomOption(this, 'level', 'low', 'Low')">Low</button>
+        <button type="button" onclick="chooseCustomOption(this, 'level', 'medium', 'Medium')">Medium</button>
+        <button type="button" onclick="chooseCustomOption(this, 'level', 'high', 'High')">High</button>
+      </div>
+    </div>
+
+    <div class="button-row">
+      <button type="button" onclick="startSelectedQuiz()">Start</button>
+      <button type="button" class="secondary" onclick="goBack()">Back</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
